@@ -1,0 +1,83 @@
+
+
+form{
+   
+    padding:1em;
+    border: 1.5px solid rgb(63, 63, 63);
+    border-radius: 5px;
+    margin:0 auto;
+    width:400px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  form li + li {
+    margin-top: 1em;
+  }
+
+  label{
+      display: inline-block;
+      min-width: 90px;
+      text-align: right;
+  }
+
+  input, textarea{
+      font: 1em sans-serif;
+      width:300px;
+      box-sizing: border-box;
+      border: 1px solid #999;
+  }
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+    /* Provide space to type some text */
+    height: 5em;
+    
+
+  }
+  input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+  #but{
+    box-sizing: border-box;
+      padding: 5px 10px;
+      cursor: pointer;
+  }
+
+  #but:hover{
+      background-color: rgb(245, 242, 102);
+  }
+
+  button{
+      margin-top: 1em;
+      margin-left: 0.5em;
+      
+  }
+
+  .container{
+      text-align: right;
+  }
+
+  #nextbut{
+    color:white;
+    background-color: #00539f;
+    margin:0;
+    padding: 10px 20px;
+    
+    border-radius: 5px;
+    cursor: pointer;
+   
+
+}
+#nextbut:hover {
+    background-color: #45a049;
+    }
+    .container2{
+        margin-top: 20px;
+        text-align: right;
+    }
